@@ -9,6 +9,8 @@ STAMP::setLogLevel(3); # 2= only summeries and news, 3= One Line per package
 $interval = 5; # in Minutes
 $loop     = TRUE;
 
+hello world
+
 do {
     STAMP::PrintLog("Loop started at ".time(), 'MAIN', 2);
     //Below code commented by sourabh on 17-5-2024 for achieving cax_traces cleanup new task scheduler created start here 
